@@ -1,0 +1,11 @@
+{
+  "name": "evernote-to-vinyl",
+  "version": "0.0.0",
+  "description": "Convert Evernote notes into a stream of Vinyl objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Birbeck <mark.birbeck@gmail.com> (http://markbirbeck.com/)",
+  "license": "MIT"
+}
