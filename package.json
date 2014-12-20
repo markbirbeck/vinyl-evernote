@@ -1,6 +1,6 @@
 {
   "name": "vinyl-evernote",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Queries for Evernote notes and presents them as a stream of Vinyl objects.",
   "main": "./lib/evernote.js",
   "keywords": [
