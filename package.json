@@ -1,11 +1,31 @@
 {
-  "name": "evernote-to-vinyl",
+  "name": "vinyl-evernote",
   "version": "0.0.0",
-  "description": "Convert Evernote notes into a stream of Vinyl objects.",
-  "main": "index.js",
+  "description": "Queries for Evernote notes and presents them as a stream of Vinyl objects.",
+  "main": "./lib/evernote.js",
+  "keywords": [
+    "gulp",
+    "gulpfriendly",
+    "evernote",
+    "vinyl"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=test mocha"
   },
   "author": "Mark Birbeck <mark.birbeck@gmail.com> (http://markbirbeck.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "config": "~1.9.0",
+    "gulp": "~3.8.10",
+    "gulp-markdown": "~1.0.0",
+    "gulp-s3": "~0.3.0",
+    "js-yaml": "~3.2.4",
+    "mocha": "~2.0.1"
+  },
+  "dependencies": {
+    "event-stream": "~3.1.7",
+    "evernote": "~1.25.3",
+    "through2": "~0.6.3",
+    "vinyl": "~0.4.6"
+  }
 }
